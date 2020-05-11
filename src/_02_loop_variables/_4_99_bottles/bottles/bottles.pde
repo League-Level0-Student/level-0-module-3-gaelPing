@@ -1,6 +1,7 @@
 int num =99;
-for(int i =0;i< 100; i++){
-print(num+"bottles of beer on the wall, "+ num +" bootles of beer on the wall.");
+for(int i =0;i< 98; i++){
+print("\n"+num+" bottles of beer on the wall, "+ "\n" + num +" botles of beer.\n");
  num--;
- print("\n Take one down and pass it around "+ num +" bottles of beer on the wall");
+ print("Take one down and pass it around "+ "\n"+num +" bottles of beer.\n");
 }
+print("\n 0 bottles of beer on the wall,no more beer on the wall \n");
