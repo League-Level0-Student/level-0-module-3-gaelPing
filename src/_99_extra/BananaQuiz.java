@@ -7,8 +7,30 @@ public class BananaQuiz
 {
 	
 	public static void main(String[] args)
-	{
-		//1. ask the user if they like bananas
+	{String ƒ = JOptionPane.showInputDialog(null, "do you like bananas?");
+		if (ƒ.equals("yes")) {
+			
+			String hobby=JOptionPane.showInputDialog(null, "What is your favorit hobby?");
+			JOptionPane.showMessageDialog(null, hobby +" is much better with bananas");
+		}	
+	if (ƒ.equals("no")) {
+		System.out.println("you are crazy!");
+		System.exit(0);
+	}
+	 if (ƒ.equals(ƒ)) {	JOptionPane.showMessageDialog(null, "YOU ARE BANANAS");	 
+	 
+	}
+	}	
+
+
+		
+		
+		
+		
+	}
+
+
+//1. ask the user if they like bananas
 		//2. if they say no, 
 			//tell them they are crazy 
 			//and end quiz
@@ -19,6 +41,3 @@ public class BananaQuiz
 		//4. OPTIONAL: if they say something other than "yes?" or "no?"
 		//	show a pop up that says "You are bananas!?"
 	
-	}
-
-}

@@ -5,9 +5,6 @@ void setup() {
      background(160, 160, 160);
      drawFlower(350, 100);
 }
-
-void draw() {
-  
 // First run the program and you should see a flower.  
   
   
@@ -15,6 +12,20 @@ void draw() {
 (see the image on the recipe, it's a diagonal line of circles)
 Use modulo to make the colors alternate between yellow and black
 */
+void draw() {
+  for(int i=0; i<29; i++){
+  if(i % 2 == 0)
+  {
+  fill(#000000);
+  }
+   if(i % 2 == 1)
+  {
+  fill(#FEFF00);
+  }
+  ellipse(i*15,i*15,50,50);
+  drawBeeFace(435,430);  
+    
+  }
 
 
 
