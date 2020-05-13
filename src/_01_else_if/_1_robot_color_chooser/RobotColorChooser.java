@@ -15,7 +15,7 @@ public class RobotColorChooser {
 		potato.setPenWidth(10);
 		potato.setSpeed(100);
 		
-		for (int v = 0; v < 4; v++) {
+		for (int v = 0; v < 20; v++) {
 		String random = JOptionPane.showInputDialog(null, "what color would you like to use.");	
 		
 		if (random.equals("red")) {

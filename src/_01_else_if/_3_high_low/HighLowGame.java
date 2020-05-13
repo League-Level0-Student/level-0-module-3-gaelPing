@@ -18,6 +18,7 @@ public class HighLowGame {
 			// 1. Ask the user for a guess using a pop-up window, and save their response
 		// 4. Convert the users’ answer to an int (Integer.parseInt(string))
 		// 5. if the guess is correct 
+		
 		for (int i = 0; i < 10; i++) {
 			
 		
@@ -39,7 +40,12 @@ public class HighLowGame {
 				if (choice>random) {System.out.println("your answer is high.");
 					
 				}
+				if (i==9) {
+				System.out.println("you lose");
+				
 			}
+			}
+			
 				}
 		
 		
